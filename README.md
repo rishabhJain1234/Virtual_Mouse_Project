@@ -39,7 +39,7 @@ For the purpose of detecting hand gestures and hand tracking, the MediaPipe fram
 ### 7.Drag and Drop
 ![drag_and_drop](https://github.com/AggarwalManav/Virtual_Mouse_Project/assets/127924433/6cf40e66-9665-46ca-9aa5-34180e20c899)
 
-##Challenges we ran into
+## Challenges we ran into
 1.Finding alternatives to depriciated libraries:<br>
 In the ever evolving world of AI-ML, the breakthrough in new technologies and updation comes at the cost of depreciated and incompatible libraries.Like we tried to use autopy library for cursor control but due to its incombatible nature, we ran into several issues.Ultimately we switched to pyautogui and ctypes.<br>
 

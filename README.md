@@ -39,16 +39,47 @@ For the purpose of detecting hand gestures and hand tracking, the MediaPipe fram
 ### 7.Drag and Drop
 ![drag_and_drop](https://github.com/AggarwalManav/Virtual_Mouse_Project/assets/127924433/6cf40e66-9665-46ca-9aa5-34180e20c899)
 
+##Challenges we ran into
+1.Finding alternatives to depriciated libraries:<br>
+In the ever evolving world of AI-ML, the breakthrough in new technologies and updation comes at the cost of depreciated and incompatible libraries.Like we tried to use autopy library for cursor control but due to its incombatible nature, we ran into several issues.Ultimately we switched to pyautogui and ctypes.<br>
+
+2.Deployment issues:<br>
+We tries to convert our .ipynb (or.py) file into .exe file using pyinstaller but it was constantly giving us error due to its incompatibility with mediapipe.We even tried to git clone mediapipe where our .exe was installed but that too didn't work.Later we tried the same process with auto-py-to-exe but even that gave us the same error.<br>
+
+3.Running out of usable hand gestures:<br>
+This project required us to constantly look for new and custom hand gestures which would be easy to be picked by the mediapipe model.<br>
+
+
+
 
 ## Major applications:
-(I) The proposed model has a greater accuracy of 99% which is far greater than that of other proposed models for virtual mice, and it has many applications<br>
-(ii) Amidst the COVID-19 situation, it is not safe to use the devices by touching them because it may result in a possible situation of spread of the virus by touching the devices, so the proposed AI virtual mouse can be used to control the PC mouse functions without using the physical mouse<br>
-(iii) The system can be used to control robots and automation systems without the usage of devices<br>
-(iv) 2D and 3D images can be drawn using the AI virtual system using the hand gestures<br>
-(v) AI virtual mouse can be used to play virtual reality- and augmented reality-based games without the wireless or wired mouse devices<br>
-(vi) Persons with problems in their hands can use this system to control the mouse functions in the computer<br>
-(vii) In the field of robotics, the proposed system like HCI can be used for controlling robots<br>
-(viii) In designing and architecture, the proposed system can be used for designing virtually for prototyping<br>
+1.Accessibility Solutions: Virtual mice make it easier for individuals with mobility impairments to interact with computers, promoting digital inclusivity.<br>
+
+2.Ergonomic Computing: They reduce the risk of repetitive strain injuries by allowing users to operate computers without physical devices, promoting healthier postures.<br>
+
+3.Hygienic Interfaces: In healthcare, public spaces, and shared work environments, virtual mice offer contactless control, reducing the risk of spreading infections.<br>
+
+4.Precision Tasks: They excel in tasks requiring pinpoint accuracy, such as graphic design and medical imaging, providing enhanced control and precision.<br>
+
+5.Multimodal Interaction: Virtual mice seamlessly integrate hand gestures, facial expressions, and voice commands, enhancing the computing experience and offering versatility.<br>
+
+6.Gesture-Based Computing: Ideal for non-verbal communication, they are used in presentations, virtual reality, and gaming for intuitive, hands-free control.<br>
+
+7.Cost-Effective Accessibility: Virtual mice are a cost-effective alternative for those who require advanced input methods, addressing financial barriers to technology access.<br>
+
+8.Privacy and Security: They enhance data security by reducing the risk of leaving personal information behind and may offer biometric authentication through facial recognition.<br>
+
+9.Adaptability to User Preferences: Users can customize their virtual mouse experience to match their unique needs and preferences.<br>
+
+10.Collaborative and Remote Work: Virtual mice facilitate interactive and hygienic collaborative and remote work, enabling control without physical contact and improving communication in shared workspaces and virtual meetings.<br>
+
+These applications highlight the versatility and potential impact of virtual mice in various domains of technology and human-computer interaction.<br>
+
+
+
+
+
+
 
 ## Conclusions
 From the results of the model, we can come to the conclusion that the proposed AI virtual mouse system has performed very well and has greater accuracy compared to the existing models, and also the model overcomes most of the limitations of the existing systems. Since the proposed model has greater accuracy, the AI virtual mouse can be used for real-world applications, and also, it can be used to reduce the spread of COVID-19, since the proposed mouse system can be used virtually using hand gestures without using the traditional physical mouse.

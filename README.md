@@ -44,7 +44,7 @@ For the purpose of detecting hand gestures and hand tracking, the MediaPipe fram
 In the ever evolving world of AI-ML, the breakthrough in new technologies and updation comes at the cost of depreciated and incompatible libraries.Like we tried to use autopy library for cursor control but due to its incombatible nature, we ran into several issues.Ultimately we switched to pyautogui and ctypes.<br>
 
 2.Deployment issues:<br>
-We tries to convert our .ipynb (or.py) file into .exe file using pyinstaller but it was constantly giving us error due to its incompatibility with mediapipe.We even tried to git clone mediapipe where our .exe was installed but that too didn't work.Later we tried the same process with auto-py-to-exe but even that gave us the same error.<br>
+We tried to convert our .ipynb (or.py) file into .exe file using pyinstaller but it was constantly giving us error due to its incompatibility with mediapipe.We even tried to git clone mediapipe where our .exe was installed but that too didn't work.Later we tried the same process with auto-py-to-exe but even that gave us the same error.<br>
 
 3.Running out of usable hand gestures:<br>
 This project required us to constantly look for new and custom hand gestures which would be easy to be picked by the mediapipe model.<br>
